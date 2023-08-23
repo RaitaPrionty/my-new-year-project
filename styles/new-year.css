@@ -1,0 +1,139 @@
+/* universal styles */
+*{
+    margin: 0px;
+    font-family: Work Sans;
+    font-style: normal;
+    /* header part styles */   
+}
+header h1{
+    font-weight: 900;
+}
+header p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+    
+    color: var(--dark-02, #444343);
+}
+.orange-btn{
+    background: #F15B22;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+}
+header{
+    background-image: url(../images/banner/banner2.png);
+    width: 1300px;
+    height: 700px;
+    text-align: right;
+}
+.head{
+    padding: 200px 100px;
+}
+
+/* my failure section styles */
+.my-failur-section ul, p{
+    color: var(--dark-02, #444343);
+    /* list-style:square; */
+    
+}
+.my-failur-section{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    background-color: lavenderblush;
+    padding: 200px 100px;
+}
+.my-failur-section img{
+    width: 400px;
+    height: 400px
+
+}
+.my-failur-section p{
+    padding: 15px 0;
+}
+/* end of my failure section */
+
+/* start of my plan section */
+.my-plans-icon{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+    
+}
+.my-plan-section h1{
+    text-align: center;
+}
+.my-plan-section{
+    padding: 100px;
+}
+/* end of my plans section */
+
+/* start of always keep positive styles */
+.always-keep-positive{
+    background-image: url(../images/watch.png);
+
+background: linear-gradient(90deg, #F15B22 0%, rgba(100, 80, 30, 0) 100%);
+    /* background-blend-mode: overlay; */
+    width: 700px;
+    height: 250px;
+    background-repeat: no-repeat;
+    color: white;
+    margin-left: 300px;
+    
+
+background-size: cover;
+}
+.call-btn{
+    background-color: white;
+    color: orangered;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.always-keep-positive h1{
+    padding-bottom: 20px;
+}
+.h1-btn{
+    padding: 60px 60px;
+}
+/* start future section style */
+.future-section{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    margin-top: 50px;
+    border-bottom: 3px solid blue;
+}
+.future-section p{
+    color: white;
+}
+.future-section h1{
+    padding-bottom: 20px;
+
+
+}
+.future-section p{
+    padding-bottom: 20px;
+}
+.future-section h4{
+    padding-bottom: 20px;
+    
+}
+.future-section button{
+    margin-top: 20px;
+}
+
+
